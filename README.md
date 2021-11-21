@@ -1,5 +1,5 @@
 # PivotedWwap
-Pivoted Wvap with rolling weigthed std dev bands per day
+Pivoted Wvap with rolling weigthed std dev bands per utc day
 
 # FTXLeveragedTrading
 
@@ -29,13 +29,15 @@ Gets 1H & 5m historical data from the API and organizes it in a dataframe with O
 Identifies the overal bigger picture trend, 1 Hr candls, Daily GMT pivots for Vwap deviations and more.
 
 You can build (and easily write) your own strategy, could be based on Moving averages, MACD, VWAP, combined or etc. 
-# NOT TESTED: The strategy present here just runs, most likely it is not profitable (contact me: https://www.linkedin.com/in/carlo-fernandez-benedetto/ to write one)
+# Disclaimer: The strategies presented here just run, most likely it is not profitable (contact me: https://www.linkedin.com/in/carlo-fernandez-benedetto/ to write one)
 
 # To be added:
 
 Goes Long or Short depending on the trend and the strategy chosen, and starts looking for similar pairs faster to trade when volatility increases.
 
-Revises and corrects the position in case there is any fault or exception in the process.
+SLs and Trailing TPs with order sizes and database.
+
+Revise and correct the positions in case there is any fault or exception in the process.
 
 Plots and graphs a snapshot of the chart when going long or short indicating the Take profit point and Stop loss prices.
 
