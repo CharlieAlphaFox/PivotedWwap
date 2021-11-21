@@ -301,9 +301,8 @@ def Strategy(mdf, pair):
 # Main:
 for pair in pairs:
     df = Trendicators(pair)
-    # plot_initial(df, pair)
     dfm5 = Indicators(pair, df)
     mdf = dfMerge(df, dfm5)
     mdf1, buy_signals, sell_signals = Strategy(mdf, pair)
-    # plot_Pvwap(mdf1, buy_signals, sell_signals, pair)
+    plot_Pvwap(mdf1, buy_signals, sell_signals, pair)
     sleep(1)
