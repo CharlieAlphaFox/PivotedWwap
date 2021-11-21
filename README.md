@@ -16,9 +16,9 @@ BTC 3BjiRfs2e1bevJHnKfMTi52BKvsq7yVU1u
 
 ETH 0xD528aa90320b1B811B6766159ff727CcF4c14dCc
 
-Leverage on Perp-Trading here is made simpler with FTX! =) You can easily open an account: https://ftx.com/profile#a=2738399
+Leverage on Perp-Trading with FTX! =) Stop losses, Trailing Take profits, OCOs, etc. Please open an account here if you havent already: https://ftx.com/profile#a=2738399
 
-Strategy= Define your own. To use at your own risk/peril. Trades with leveraged pairs as they have lower spreads, but the pairs can be changed to any pair you like.
+Strategy= Define your own. To use at your own risk/peril. Trades with leveraged pairs as they have lower spreads/high volumes, but the pairs can be changed to any pair you like.
 
 ## Functions available: What it does
 
@@ -30,10 +30,15 @@ Gets 1H & 5m historical data from the API and merges it in a dataframe with OCHL
 
 Identifies the overal bigger picture trend, 1 Hr candls, Daily GMT pivots for Vwap deviations and more.
 
-You can build (and easily write) your own strategy, could be based on Moving averages, MACD, VWAP, combined or etc. 
-# Disclaimer: The strategies presented here just run, most likely it is not profitable (contact me: https://www.linkedin.com/in/carlo-fernandez-benedetto/ to write one)
+Graphs visually whatever you want to throw at it.
 
-# To be added:
+You can build (and easily write) your own strategy, could be based on Moving averages, MACD, VWAP, RSI combined or more.
+
+# Disclaimer: The strategies presented here just run, most likely it is not profitable (contact me: https://www.linkedin.com/in/carlo-fernandez-benedetto/ to write a proper one)
+
+90 percent of retail traders loose 90 percent or more of their account in 90 days or less. Trade responsably and take care of the trading capital.
+
+# Can easily be added:
 
 Goes Long or Short depending on the trend and the strategy chosen, and starts looking for similar pairs faster to trade when volatility increases.
 
@@ -43,7 +48,7 @@ Revise and correct the positions in case there is any fault or exception in the 
 
 Plots and graphs a snapshot of the chart when going long or short indicating the Take profit point and Stop loss prices.
 
-Continuosly checks the open long TP or short orders and cancels them if trend is oposite to the position or any other desired price or indicator condition.
+Continuosly checks the open long TP or short orders and cancels them if trend is oposite to the position or any other desired price, indicator or position condition.
 
 
 ## Technologies
