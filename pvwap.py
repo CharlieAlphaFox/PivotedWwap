@@ -158,13 +158,12 @@ def Indicators(pair, df):
     # FTX gives about 5 days back in the get_historical_data: for 5min candles
     ref_dates = [df_dbyes5, df_dbyes4, df_dbyes3, df_dbyes2, df_dbyes1, df_yest, df_today]
 
-    # Per day: smaller dataframes to pivot VWAP & rolling weighted stdv
-
+    
     df['VWAP'] = np.nan
     df['LowrVwap'] = np.nan
     df['UpprVwap'] = np.nan
-
-
+    
+    # Per day: smaller dataframes to pivot VWAP & rolling weighted stdv:
     data_day_list = []
     for i, ref in enumerate(ref_dates):
         wp =ref['hlc3'] * ref['volume']
@@ -188,9 +187,9 @@ def Indicators(pair, df):
         pprofit = (p_dev*2+ref['hlc3']+stdev*2)/ref['hlc3'] # potential movement of the price
         ref['pot_prof'] = pprofit # Used 2 trade away from accumulation
 
-        data_day_list.append(ref)
+        data_day_list.append(ref) # adding dfs day by day to the list
 
-    df = pd.concat(data_day_list)
+    df = pd.concat(data_day_list) # concatenates each day with ordered indices
 
     # Incremental weighted standard deviation (rolling)
     # http://people.ds.cam.ac.uk/fanf2/hermes/doc/antiforgery/stats.pdf (part 5)
