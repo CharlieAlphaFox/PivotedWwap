@@ -1,5 +1,7 @@
 # PivotedWwap
 Pivoted Wvap with rolling weigthed std dev bands per utc day
+(Incremental weighted standard deviation (rolling) bands)
+https://www.tradingview.com/script/dQF211AS-Multi-Timeframe-VWAP/
 
 # FTX Leveraged Trading
 
