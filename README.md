@@ -1,14 +1,12 @@
 # PivotedWwap
 Pivoted Wvap with rolling weigthed std dev bands per day
 
-# BinanceMarginTrader
-Binance Marging Trading defined in easy functions. You can go long or short assets weather they increase in price or not.
+# FTXLeveragedTrading
+
 ## Skip to
 * [Setup](#setup)
 
 ## General info
-
-# BinanceMarginTrader
 
 If you find this functions useful please donate here: 
 
