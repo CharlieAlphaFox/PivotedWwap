@@ -1,7 +1,7 @@
 # PivotedWwap
 Pivoted Wvap with rolling weigthed std dev bands per utc day
 
-# FTXLeveragedTrading
+# FTX Leveraged Trading
 
 ## Skip to
 * [Setup](#setup)
