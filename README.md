@@ -24,7 +24,7 @@ Logs in with your API keys from another file (doc.py). Consider a .ini for added
 
 Keeps exception logs of any errors with the Rest API/functions/program written in a file with traceback.
 
-Gets 1H & 5m historical data from the API and organizes it in a dataframe with OCHLV + VWAP and others values to then analize it.
+Gets 1H & 5m historical data from the API and merges it in a dataframe with OCHLV + VWAP, indicators and other values to then analize it.
 
 Identifies the overal bigger picture trend, 1 Hr candls, Daily GMT pivots for Vwap deviations and more.
 
